@@ -1,3 +1,6 @@
+## Switch linguistic system to English as I am using a Chinese windows
+Sys.setlocale("LC_ALL", "English")
+
 ## read in full data frame into R memory.
 my.data <- read.csv("./household_power_consumption.txt", header = T, sep = ';', 
                     na.strings = "?", nrows = 2075259, check.names = F, 
